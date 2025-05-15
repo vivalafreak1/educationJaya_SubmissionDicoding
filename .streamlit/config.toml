@@ -1,2 +1,2 @@
 [runner]
-pythonVersion = "3.10"
+python = "3.11"
