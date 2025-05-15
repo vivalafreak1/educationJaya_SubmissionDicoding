@@ -1,2 +1,2 @@
-[runner]
+[global]
 pythonVersion = "3.11"
