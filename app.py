@@ -9,7 +9,7 @@ rdf_model = joblib.load("model/rdf_model.joblib")
 # Streamlit layout
 col1, col2 = st.columns([1, 5])
 with col1:
-    st.image("https://github.com/vivalafreak1/educationJaya_SubmissionDicoding/assets/logo.png", width=130)
+    st.image("https://github.com/vivalafreak1/educationJaya_SubmissionDicoding/blob/main/assets/logo.png", width=130)
 with col2:
     st.header('Student Performance Prediction App (Prototype)')
 
