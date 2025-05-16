@@ -76,23 +76,30 @@ pip install -r requirements.txt
 
 ## Business Dashboard
 
-Jelaskan tentang business dashboard yang telah dibuat. Jika ada, sertakan juga link untuk mengakses dashboard tersebut.
+Dashboard yang dibuat terdiri dari pie chart, bar chart, dan jumlah data aktual dengan memfokuskan pada
+
+- Jumlah Mahasiswa
+- Rata-rata usia
+- Performa Akademik
+- Faktor ekonomi (hutang)
 
 ## Menjalankan Sistem Machine Learning
 
-Jelaskan cara menjalankan protoype sistem machine learning yang telah dibuat. Selain itu, sertakan juga link untuk mengakses prototype tersebut.
+Web aplikasi dibangun menggunakan streamlit karena memudahkan dan sederhana baik dari sisi developer maupun user. Di aplikasi tersebut, pengguna akan diminta memasukkan input agar mendapatkan hasil prediksi apakah Dropout, Enrolled, atau graduate.
 
-```
+Menjalankan secara Online
 
-```
+1. Masuk ke link berikut: https://educationjayainstitute.streamlit.app/
+2. Masukan fitur pada widget inputan
+3. Klik tombol Predict untuk mendapatkan hasil prediksi
 
 ## Conclusion
 
-Jelaskan konklusi dari proyek yang dikerjakan.
+Analisis ini berhasil yang dibuktikan dengan pengembangan sebuah prototype sistem machine learning untuk memprediksi status mahasiswa (Dropout, Enrolled, Graduate) dengan membandingkan data `akademik dan ekonomi`. Dengan menggunakan model Random Forest dan antarmuka berbasis Streamlit, sistem ini memungkinkan pengguna untuk memasukkan data mahasiswa secara itneraktif dan mendapatkan prediksi secara langsung. Meskipun begitu, proses pengembangan menghadapi tantangan seperti kompatibilitas versi Python dan konflik dependensi seperti numpy dan seaborn, namun semua masalah telah diatasi dengan penyesuaian konfigurasi dan versi library. Implementasi di Streamlit Community Cloud dengan Python 3.10.17 menunjukkan bahwa sistem dapat dijalankan secara online, meskipun memerlukan penangan lebih untuk production environment.
 
 ### Rekomendasi Action Items
 
-Berikan beberapa rekomendasi action items yang harus dilakukan perusahaan guna menyelesaikan permasalahan atau mencapai target mereka.
+Berdasarkan dari analisis yang telah dilakukan, berikut beberapa solusi terhadap permasalahan dropout yang sedang dialami:
 
-- action item 1
-- action item 2
+- `Memberikan bimbingan lebih lanjut` bagi mahasiswa yang memiliki risiko dropout lebih tinggi dengan program mentoring atau konseling akademik untuk meningkatkan retensi
+- `Memberikan insentif bagi mahasiswa kurang mampu`, berikan bantuan finansial atau beasiswa kepada mahasiswa dengan status ekonomi rendah untuk mendukung kelangsungan pendidikan mereka.
