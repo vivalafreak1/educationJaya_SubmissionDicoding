@@ -79,9 +79,21 @@ pip install -r requirements.txt
 Dashboard yang dibuat terdiri dari pie chart, bar chart, dan jumlah data aktual dengan memfokuskan pada
 
 - Jumlah Mahasiswa
+- Gender (tidak terlalu signifikan)
+- Penerima Beasiswa
 - Rata-rata usia
 - Performa Akademik
 - Faktor ekonomi (hutang)
+
+![grafik](https://raw.githubusercontent.com/vivalafreak1/educationJaya_SubmissionDicoding/refs/heads/main/eddiesti-dashboard.jpg)
+
+Dari grafik tersebut dapat disimpulkan bahwa
+
+- Jumlah mahasiswa di Jaya Institute adalah 4424 Mahasiswa dengan 1556 Mahasiswa (35,17%) dan 2868 Mahasiswi (64,83%).
+- Persentase mahasiswa yang dropout tanpa beasiswa sebesar 90,57% dan 9,43% mahasiswa penerima beasiswa yang dropout
+- Mahasiswa yang menghutang lebih besar kemungkinannya untuk dropout dari kampus
+- Rata-rata umur mahasiswa dropout saat masuk pertama kali kuliah adalah 25 tahun
+- Rata-rata nilai semester dua yang dropout sebesar 5,9, terlampau jauh dengan yang enrolled maupun yang sudah lulus dengan angka 11.
 
 ## Menjalankan Sistem Machine Learning
 
@@ -103,3 +115,4 @@ Berdasarkan dari analisis yang telah dilakukan, berikut beberapa solusi terhadap
 
 - `Memberikan bimbingan lebih lanjut` bagi mahasiswa yang memiliki risiko dropout lebih tinggi dengan program mentoring atau konseling akademik untuk meningkatkan retensi
 - `Memberikan insentif bagi mahasiswa kurang mampu`, berikan bantuan finansial atau beasiswa kepada mahasiswa dengan status ekonomi rendah untuk mendukung kelangsungan pendidikan mereka.
+- `Memberikan motivasi kepada mahasiswa yang memiliki usia lebih tua`, hal ini dilakukan agar mengurangi jumlah mahasiswa yang dropout serta memberikan kesempatan yang sama, baik tua maupun muda untuk mendapatkan ilmu.
