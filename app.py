@@ -146,6 +146,13 @@ if st.button('Predict'):
     with st.expander("View the Preprocessed Data"):
         st.dataframe(data=new_data, width=800, height=10)
     
+    # after you call data_preprocessing():
+    new_data = data_preprocessing(data)
+
+    # force the exact columns & order your model expects:
+    expected = list(rdf_model.feature_names_in_)
+    new_data = new_data[expected]
+
     # Make prediction
     prediction = rdf_model.predict(new_data)
     predicted_status = encoder_target.inverse_transform(prediction)[0]  # Inverse transform to get original label
