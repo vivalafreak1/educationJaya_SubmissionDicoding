@@ -137,7 +137,7 @@ with col2:
 with st.expander("View the Raw Data"):
     st.dataframe(data=data, width=800, height=10)
 
-st.write("Model expects these features (in order):", rdf_model.feature_names_in_)
+# st.write("Model expects these features (in order):", rdf_model.feature_names_in_)
 
 # Prediction button
 if st.button('Predict'):
